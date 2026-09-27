@@ -7,7 +7,7 @@ int temp = *a;
 } 
 // Partition function 
 Galgotias College of Engineering and Technology 
-1, Knowledge Park II, Greater Noida – 201310 (UP) INDIA  
+1, Knowledge Park II, Greater Noida , 201310 (UP) INDIA  
 int partition(int arr[], int low, int high) { 
     int pivot = arr[high];  // pivot 
     int i = (low - 1);      // index of smaller element 
