@@ -5,9 +5,8 @@ int temp = *a;
 *a = *b; 
 *b = temp; 
 } 
-// Partition function 
-Galgotias College of Engineering and Technology 
-1, Knowledge Park II, Greater Noida , 201310 (UP) INDIA  
+// Partition function Galgotias College of Engineering and Technology 1, Knowledge Park II, Greater Noida , 201310 (UP) INDIA  
+
 int partition(int arr[], int low, int high) { 
     int pivot = arr[high];  // pivot 
     int i = (low - 1);      // index of smaller element 
@@ -27,7 +26,7 @@ int partition(int arr[], int low, int high) {
 void quickSort(int arr[], int low, int high) { 
     if (low < high) { 
         // pi is partitioning index 
-        int pi = partition(arr, low, high); 
+        int pi = partition (arr, low, high); 
  
         // Separately sort elements before and after partition 
         quickSort(arr, low, pi - 1); 
